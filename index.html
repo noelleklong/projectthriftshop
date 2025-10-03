@@ -14,21 +14,25 @@
         "Hiragino Sans GB", "Microsoft Yahei UI", "Microsoft Yahei",
         "Source Han Sans CN", sans-serif;
     }
+
     * {
       box-sizing: border-box;
       margin: 0;
       padding: 0;
     }
+
     body {
       font-family: var(--default-font-family);
       background: #ffffff;
       overflow-x: hidden;
     }
+
     .main-container {
       width: 100%;
       max-width: 100%;
       margin: 0 auto;
     }
+
     /* Header */
     .rectangle {
       width: 100%;
@@ -38,6 +42,7 @@
       align-items: center;
       justify-content: center;
     }
+
     .project-thrift-shop {
       color: #ffffff;
       font-family: Inter, var(--default-font-family);
@@ -45,12 +50,14 @@
       font-weight: 400;
       text-align: center;
     }
+
     /* Hero Section */
     .rectangle-1 {
       width: 100%;
       background: #f781b5;
       padding: 2rem 1rem;
     }
+
     .img {
       width: 100%;
       max-width: 985px;
@@ -61,6 +68,7 @@
       background-size: cover;
       border-radius: 8px;
     }
+
     .thrift-store-movement {
       display: block;
       max-width: 1200px;
@@ -74,6 +82,7 @@
       text-align: center;
       -webkit-text-stroke: 1px #ffffff;
     }
+
     .screen-recording {
       width: 100%;
       max-width: 1081px;
@@ -82,6 +91,7 @@
       display: block;
       border-radius: 8px;
     }
+
     /* Mission Section */
     .rectangle-2 {
       width: 100%;
@@ -97,10 +107,14 @@
       font-weight: 400;
       line-height: 1.3;
       text-align: left;
-      margin-bottom: 2rem;
+      margin-bottom: 1rem;
       padding: 0 1rem;
+      max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
       -webkit-text-stroke: 1px #1e5535;
     }
+
     .we-believe-a-store {
       color: #f1f6ef;
       font-family: Basic, var(--default-font-family);
@@ -111,7 +125,10 @@
       margin-bottom: 3rem;
       padding: 0 1rem;
       max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
     }
+
     .about-us {
       color: #215838;
       font-family: Basic, var(--default-font-family);
@@ -119,10 +136,12 @@
       font-weight: 400;
       line-height: 1.3;
       text-align: left;
-      margin: 3rem 0 2rem;
+      margin: 3rem auto 1rem;
       padding: 0 1rem;
+      max-width: 1200px;
       -webkit-text-stroke: 1px #1e5535;
     }
+
     .project-loose-change {
       color: #f1f6ef;
       font-family: Basic, var(--default-font-family);
@@ -133,7 +152,10 @@
       margin-bottom: 3rem;
       padding: 0 1rem;
       max-width: 1200px;
+      margin-left: auto;
+      margin-right: auto;
     }
+
     .unnamed {
       width: 100%;
       max-width: 957px;
@@ -144,6 +166,7 @@
       background-size: cover;
       border-radius: 8px;
     }
+
     .connect-with-us-on-social-media {
       display: block;
       color: #215838;
@@ -155,6 +178,7 @@
       padding: 0 1rem;
       -webkit-text-stroke: 1px #1e5535;
     }
+
     .img-3 {
       width: 100%;
       max-width: 316px;
@@ -165,12 +189,14 @@
       background-size: cover;
       border-radius: 8px;
     }
+
     /* Pink Section */
     .rectangle-4 {
       width: 100%;
       background: #feb5d3;
       padding: 2rem 0;
     }
+
     .img-5 {
       width: 100%;
       max-width: 1039px;
@@ -181,6 +207,7 @@
       background-size: cover;
       display: block;
     }
+
     /* Audio Section */
     figure {
       width: 100%;
@@ -189,16 +216,24 @@
       padding: 1rem;
       text-align: center;
     }
+
     figcaption {
       font-size: 1.2rem;
       margin-bottom: 1rem;
       font-weight: 500;
     }
+
+    audio {
+      width: 100%;
+      margin-bottom: 1rem;
+    }
+
     figure a {
       color: #1e5535;
       text-decoration: none;
       font-weight: 500;
     }
+
     /* Footer */
     .rectangle-6 {
       width: 100%;
@@ -207,6 +242,7 @@
       background-size: cover;
       padding: 2rem 1rem;
     }
+
     .munster-address,
     .copyright-notice,
     .nonprofit-organization {
@@ -216,27 +252,33 @@
       text-align: center;
       padding: 0.5rem 1rem;
     }
+
     .munster-address {
       font-size: clamp(1rem, 2.5vw, 2rem);
       margin-top: 1rem;
     }
+
     .copyright-notice {
       font-size: clamp(0.9rem, 2vw, 1.5rem);
       margin-top: 0.5rem;
     }
+
     .nonprofit-organization {
       font-size: clamp(0.8rem, 1.8vw, 1.3rem);
       margin-top: 0.5rem;
     }
+
     /* Responsive adjustments */
     @media (max-width: 768px) {
       .rectangle {
         padding: 1.5rem 1rem;
       }
+
       .rectangle-1,
       .rectangle-2 {
         padding: 1.5rem 0.75rem;
       }
+
       .img,
       .screen-recording,
       .unnamed,
@@ -245,24 +287,29 @@
         margin-left: auto;
         margin-right: auto;
       }
+
       .thrift-store-movement,
       .we-believe-a-store,
       .project-loose-change {
         text-align: left;
       }
     }
+
     @media (max-width: 480px) {
       .rectangle {
         padding: 1rem 0.5rem;
       }
+
       .rectangle-1,
       .rectangle-2 {
         padding: 1rem 0.5rem;
       }
+
       .our-mission,
       .about-us {
         -webkit-text-stroke: 0.5px #1e5535;
       }
+
       .thrift-store-movement {
         -webkit-text-stroke: 0.5px #ffffff;
       }
@@ -274,6 +321,7 @@
     <div class="rectangle">
       <span class="project-thrift-shop">PROJECT THRIFT SHOP</span>
     </div>
+    
     <div class="rectangle-1">
       <div class="img"></div>
       <span class="thrift-store-movement">
@@ -281,10 +329,11 @@
         Change are a movement of hope, love, and community.
       </span>
       <video class="screen-recording" controls loop autoplay muted>
-        <source src="https://github.com/noelleklong/projectthriftshop/raw/main/assets/ScreenRecording_09-30-2025%2021-11-06_1%20(1).mp4" type="video/mp4">
+        <source src="https://github.com/noelleklong/projectthriftshop/raw/main/assets/ScreenRecording_09-30-2025%2021-11-06_1%20(1).mov" type="video/mp4">
         Your browser does not support the video tag.
       </video>
     </div>
+
     <div class="rectangle-2">
       <span class="our-mission">Our Mission</span>
       <span class="we-believe-a-store">
@@ -302,6 +351,9 @@
         service. When you shop here, you're not just finding treasures —
         you're fueling transformation.
       </span>
+      
+      <div class="unnamed"></div>
+      
       <span class="about-us">About Us</span>
       <span class="project-loose-change">
         For over 22 years, Project Loose Change Inc. has served children,
@@ -317,15 +369,17 @@
         faith-driven mission, and a family of helpers — and with your support,
         we'll keep growing and giving for years to come.
       </span>
-      <div class="unnamed"></div>
+      
       <span class="connect-with-us-on-social-media">
         Connect With Us On Social Media
       </span>
       <div class="img-3"></div>
     </div>
+
     <div class="rectangle-4">
       <div class="img-5"></div>
     </div>
+
     <div class="rectangle-6">
       <span class="munster-address">1938 45th St, Munster, IN 46321</span>
       <span class="copyright-notice">
@@ -339,7 +393,6 @@
   </div>
 </body>
 </html>
-
 
 
 
