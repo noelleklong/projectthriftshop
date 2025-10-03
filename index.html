@@ -74,13 +74,20 @@
       text-align: center;
       -webkit-text-stroke: 1px #ffffff;
     }
-   .screen-recording {
-      width: 100%;
-      max-width: 1200px;
-      height: auto;
+    /* Video Container Styles */
+    .video-container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
       margin: 3rem auto;
-      display: block;
-      border-radius: 8px;
+      padding: 0 1rem;
+    }
+    .video-container video {
+      width: 100%;
+      max-width: 1080px;
+      height: auto;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
     }
     /* Mission Section */
     .rectangle-2 {
@@ -253,8 +260,10 @@
       .rectangle-2 {
         padding: 1.5rem 0.75rem;
       }
+      .video-container {
+        padding: 0 0.75rem;
+      }
       .img,
-      .screen-recording,
       .unnamed,
       .img-3,
       .img-5 {
@@ -274,6 +283,10 @@
       .rectangle-1,
       .rectangle-2 {
         padding: 1rem 0.5rem;
+      }
+      .video-container {
+        padding: 0 0.5rem;
+        margin: 2rem auto;
       }
       .our-mission,
       .about-us {
@@ -296,10 +309,12 @@
         Not just a thrift store — Project Thrift Shop ECT and Project Loose
         Change are a movement of hope, love, and community.
       </span>
-    <video width="640" height="360" controls autoplay muted loop>
-      <source src="ScreenRecording.mp4" type="video/mp4">
-      Your browser does not support the video tag
-    </video>
+      <div class="video-container">
+        <video controls autoplay muted loop>
+          <source src="ScreenRecording.mp4" type="video/mp4">
+          Your browser does not support the video tag
+        </video>
+      </div>
     </div>
     <div class="rectangle-2">
       <span class="our-mission">Our Mission</span>
@@ -355,9 +370,3 @@
   </div>
 </body>
 </html>
-
-
-
-
-
-
